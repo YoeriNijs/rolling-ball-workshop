@@ -4,7 +4,7 @@ const BOUNCE_FACTOR = 0.4;
 const GRAVITY = { x: 0, y: 25 };
 
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js');
+    // todo (A1): register service worker
 }
 
 class Ball {
